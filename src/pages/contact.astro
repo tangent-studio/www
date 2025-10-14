@@ -1,0 +1,48 @@
+---
+import PageLayout from "@layouts/PageLayout.astro";
+import Container from "@components/Container.astro";
+import { SITE } from "@consts";
+---
+
+<PageLayout title="Contact" description="Let's discuss your project">
+  <Container>
+    <div class="space-y-10">
+      <div class="animate space-y-4">
+        <h1 class="animate text-2xl font-semibold text-black dark:text-white">
+          Let's Discuss Your Project
+        </h1>
+        <p class="animate">
+          For inquiries about consulting services, collaborations, or project discussions:
+        </p>
+      </div>
+
+      <div class="animate space-y-4">
+        <h2 class="text-xl font-semibold text-black dark:text-white">
+          Contact
+        </h2>
+        <p>
+          Email: <a href={`mailto:${SITE.EMAIL}`} class="underline">{SITE.EMAIL}</a>
+        </p>
+      </div>
+
+      <div class="animate space-y-4">
+        <h2 class="text-xl font-semibold text-black dark:text-white">
+          Areas of Expertise
+        </h2>
+        <ul class="list-disc list-inside space-y-2 ml-4">
+          <li>Agricultural modeling and prediction</li>
+          <li>Ecological data analysis</li>
+          <li>Statistical workflow automation</li>
+          <li>Machine learning for life sciences</li>
+          <li>Interactive scientific applications</li>
+        </ul>
+      </div>
+
+      <div class="animate space-y-4">
+        <p>
+          I work with research institutions, agricultural organizations, and government agencies on data science and modeling projects in agriculture, ecology, and environmental sciences.
+        </p>
+      </div>
+    </div>
+  </Container>
+</PageLayout>

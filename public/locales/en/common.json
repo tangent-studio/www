@@ -1,0 +1,46 @@
+{
+  "nav": {
+    "home": "Home",
+    "blog": "blog",
+    "work": "work",
+    "projects": "Projects",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Living Mathematics for Life Sciences",
+    "subtitle": "Science-based data science and AI consulting for agriculture, ecology, and environmental research"
+  },
+  "services": {
+    "title": "Services",
+    "service1": {
+      "title": "Predictive Modeling & Workflows",
+      "description": "Advanced statistical models and machine learning pipelines for investigating patterns and predicting outcomes in living systems. From nitrogen response modeling to ionomics analysis, we develop computational workflows that transform complex ecological and agricultural data into actionable predictions.",
+      "keywords": "Machine learning, dose-response modeling, time series analysis, neural networks"
+    },
+    "service2": {
+      "title": "Interactive Scientific Applications",
+      "description": "Custom web applications that transform complex analyses into accessible tools for researchers, farmers, and decision-makers. We build interactive dashboards and interfaces using modern frameworks like Marimo and Observable, making sophisticated models usable in real-world contexts.",
+      "keywords": "Web applications, dashboards, data visualization, scientific computing"
+    },
+    "service3": {
+      "title": "Statistical Automation",
+      "description": "Transform repetitive analytical tasks into automated workflows. Enter your data and receive comprehensive statistical analyses, publication-ready visualizations, and model outputs. We specialize in automating physical models and statistical procedures for systematic reporting and quality control in research and operational contexts.",
+      "keywords": "Automation, reproducible research, statistical computing, workflow optimization"
+    }
+  },
+  "home": {
+    "latestPosts": "Latest posts",
+    "seeAllPosts": "See all posts",
+    "workExperience": "Work Experience",
+    "seeAllWork": "See all work",
+    "recentProjects": "Recent projects",
+    "seeAllProjects": "See all projects",
+    "letsConnect": "Let's Connect",
+    "reachOut": "If you want to get in touch with me about something or just to say hi, reach out on social media or send me an email."
+  },
+  "projects": {
+    "demo": "Demo",
+    "repository": "Repository"
+  }
+}

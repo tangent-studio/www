@@ -1,0 +1,40 @@
+---
+import Container from "@components/Container.astro";
+import Link from "@components/Link.astro";
+import { SITE } from "@consts";
+import { localizePath } from "astro-i18next";
+import { t } from "@lib/i18n";
+
+// Detect language
+const currentPath = Astro.url.pathname;
+const currentLang = currentPath.startsWith('/fr') ? 'fr' : 'en';
+---
+
+<header>
+  <Container>
+    <div class="flex flex-wrap gap-y-2 justify-between">
+      <Link href={localizePath("/")} underline={false}>
+        <div class="font-semibold">
+          {SITE.NAME}
+        </div>
+      </Link>
+      <nav class="flex gap-1">
+        <Link href={localizePath("/projects")}>
+          {t("nav.projects", currentLang)}
+        </Link>
+        <span>
+          {`/`}
+        </span>
+        <Link href={localizePath("/about")}>
+          {t("nav.about", currentLang)}
+        </Link>
+        <span>
+          {`/`}
+        </span>
+        <Link href={localizePath("/contact")}>
+          {t("nav.contact", currentLang)}
+        </Link>
+      </nav>
+    </div>
+  </Container>
+</header>

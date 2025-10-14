@@ -1,0 +1,46 @@
+---
+const currentPath = Astro.url.pathname;
+const currentLang = currentPath.startsWith('/fr') ? 'fr' : 'en';
+
+const getOppositeUrl = () => {
+  if (currentLang === 'en') {
+    return '/fr' + currentPath;
+  } else {
+    return currentPath.replace('/fr', '');
+  }
+};
+---
+
+<div class="language-switcher">
+  <a href={getOppositeUrl()} class="font-semibold">
+    {currentLang === 'en' ? 'FR' : 'EN'}
+  </a>
+</div>
+
+<style>
+  .language-switcher {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    z-index: 100;
+  }
+
+  .language-switcher a {
+    padding: 0.5rem 1rem;
+    background: var(--tw-bg-opacity);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.375rem;
+    text-decoration: none;
+    transition: opacity 0.2s;
+  }
+
+  .language-switcher a:hover {
+    opacity: 0.7;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .language-switcher a {
+      border-color: rgba(255, 255, 255, 0.1);
+    }
+  }
+</style>
