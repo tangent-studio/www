@@ -1,0 +1,46 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "blog": "blog",
+    "work": "expérience",
+    "projects": "Projets",
+    "about": "À Propos",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Mathématiques Vivantes pour les Sciences de la Vie",
+    "subtitle": "Consultation en science des données et IA fondée sur la science pour l'agriculture, l'écologie et la recherche environnementale"
+  },
+  "services": {
+    "title": "Services",
+    "service1": {
+      "title": "Modélisation Prédictive et Flux de Travail",
+      "description": "Modèles statistiques avancés et pipelines d'apprentissage automatique pour étudier les patterns et prédire les résultats dans les systèmes vivants. De la modélisation de la réponse à l'azote à l'analyse de l'ionomique, nous développons des flux de travail computationnels qui transforment les données écologiques et agricoles complexes en prédictions actionnables.",
+      "keywords": "Apprentissage automatique, modélisation dose-réponse, analyse de séries temporelles, réseaux neuronaux"
+    },
+    "service2": {
+      "title": "Applications Scientifiques Interactives",
+      "description": "Applications web personnalisées qui transforment des analyses complexes en outils accessibles pour chercheurs, agriculteurs et décideurs. Nous construisons des tableaux de bord et interfaces interactives utilisant des frameworks modernes comme Marimo et Observable, rendant les modèles sophistiqués utilisables dans des contextes réels.",
+      "keywords": "Applications web, tableaux de bord, visualisation de données, calcul scientifique"
+    },
+    "service3": {
+      "title": "Automatisation Statistique",
+      "description": "Transformez les tâches analytiques répétitives en flux de travail automatisés. Entrez vos données et recevez des analyses statistiques complètes, des visualisations prêtes pour publication et des résultats de modèles. Nous nous spécialisons dans l'automatisation de modèles physiques et de procédures statistiques pour des rapports systématiques et le contrôle qualité dans des contextes de recherche et opérationnels.",
+      "keywords": "Automatisation, recherche reproductible, calcul statistique, optimisation de flux de travail"
+    }
+  },
+  "home": {
+    "latestPosts": "Derniers articles",
+    "seeAllPosts": "Voir tous les articles",
+    "workExperience": "Expérience professionnelle",
+    "seeAllWork": "Voir toute l'expérience",
+    "recentProjects": "Projets récents",
+    "seeAllProjects": "Voir tous les projets",
+    "letsConnect": "Restons en contact",
+    "reachOut": "Si vous souhaitez me contacter pour quelque chose ou simplement pour dire bonjour, contactez-moi sur les réseaux sociaux ou envoyez-moi un e-mail."
+  },
+  "projects": {
+    "demo": "Démo",
+    "repository": "Dépôt"
+  }
+}

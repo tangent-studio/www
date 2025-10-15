@@ -17,7 +17,7 @@ body {
 }
 
 body {
-  @apply font-sans antialiased;
+  @apply font-serif antialiased;
   @apply flex flex-col;
   @apply bg-stone-100 dark:bg-stone-900;
   @apply text-black/50 dark:text-white/75;
@@ -35,6 +35,11 @@ main {
 
 footer {
   @apply py-5 text-sm;
+}
+
+/* Keep sans-serif for headings, navigation, and UI elements */
+h1, h2, h3, h4, h5, h6, nav, header, button {
+  @apply font-sans;
 }
 
 article {

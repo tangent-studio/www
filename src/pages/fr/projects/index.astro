@@ -1,0 +1,38 @@
+---
+import { getCollection } from "astro:content";
+import PageLayout from "@layouts/PageLayout.astro";
+import Container from "@components/Container.astro";
+import ProjectCard from "@components/ProjectCard.astro";
+import { t } from "@lib/i18n";
+
+const currentLang = 'fr';
+
+// Get projects from the French language folder
+const projects = (await getCollection("projects", ({ id }) => {
+  return id.startsWith(`${currentLang}/`);
+}))
+  .filter(project => !project.data.draft)
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+---
+
+<PageLayout title={t("nav.projects", currentLang)} description={t("home.recentProjects", currentLang)}>
+  <Container>
+    <div class="space-y-10">
+      <div class="animate space-y-4">
+        <h1 class="text-3xl font-bold text-black dark:text-white">
+          {t("nav.projects", currentLang)}
+        </h1>
+        <p class="text-lg opacity-90">
+          {t("home.recentProjects", currentLang)}
+        </p>
+      </div>
+      <section class="animate">
+        <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+          {projects.map((project) => (
+            <ProjectCard project={project} />
+          ))}
+        </div>
+      </section>
+    </div>
+  </Container>
+</PageLayout>

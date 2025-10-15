@@ -8,11 +8,13 @@ import BackToPrev from "@components/BackToPrev.astro";
 import Link from "@components/Link.astro";
 
 export async function getStaticPaths() {
+  // Only generate English project pages from the `en/` collection entries
   const projects = (await getCollection("projects"))
-    .filter(post => !post.data.draft)
+    .filter(post => !post.data.draft && post.id.startsWith('en/'))
     .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+
   return projects.map((project) => ({
-    params: { slug: project.slug },
+    params: { slug: project.slug.replace('en/', '') },
     props: project,
   }));
 }

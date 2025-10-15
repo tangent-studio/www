@@ -1,7 +1,6 @@
 ---
 title: "Tangent Notebooks"
 description: "Lightweight local notebook computing environment for JavaScript, powered by WebAssembly"
-slug: "tangent-notebooks"
 date: 2025-10-01
 draft: false
 demoURL: ""
@@ -20,7 +19,7 @@ Traditional computational notebooks (Jupyter, etc.) require server infrastructur
 
 ## The Approach
 
-Tangent Notebooks is a browser-based notebook environment that executes JavaScript locally using WebAssembly. It provides:
+Tangent Notebooks is a browser-based notebook environment that executes JavaScript code locally using WebAssembly. It provides:
 
 - Zero-installation computational environment
 - Local execution (no server required)
@@ -32,10 +31,4 @@ Originally developed for algorithmic music composition (JMON-algo framework), th
 
 ## Current Status
 
-MVP at 60% completion. Core functionality operational, with ongoing development of enhanced features and interface refinements.
-
-## Images
-
-- Screenshot of notebook interface
-- Example notebook with code/output
-- Architecture diagram
+60% MVP completion. Basic functionality operational, with ongoing development of enhanced features and interface refinements.

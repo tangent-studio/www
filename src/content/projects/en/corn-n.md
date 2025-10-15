@@ -1,7 +1,6 @@
 ---
 title: "Corn Nitrogen Response Modeling"
 description: "Neural network system predicting corn nitrogen response from soil, management, and weather data"
-slug: "corn-n"
 date: 2024-01-15
 draft: false
 demoURL: ""
@@ -41,9 +40,3 @@ The model learns nonlinear relationships between these inputs and crop response,
 ## Current Status
 
 Ongoing project with promising preliminary results. The model architecture demonstrates the ability to capture complex nitrogen dynamics; validation is ongoing across diverse site conditions and management scenarios.
-
-## Images
-
-- Dashboard screenshot
-- Example dose-response curve output
-- Conceptual diagram of model inputs/outputs

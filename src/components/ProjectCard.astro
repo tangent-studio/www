@@ -4,10 +4,12 @@ interface Props {
 }
 
 const { project } = Astro.props;
-const { data, slug } = project;
+const { data, slug, id } = project;
 
-// Get the correct language prefix for the project URL
-const langPrefix = slug.startsWith('fr/') ? '/fr' : '';
+// Derive language from the entry id (more reliable than slug)
+// Example id values: `en/corn-n` or `fr/corn-n` depending on collection layout
+const langPrefix = id && id.startsWith('fr/') ? '/fr' : '';
+// Remove language prefix from slug for the URL
 const projectSlug = slug.replace(/^(en|fr)\//, '');
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: "Automated Plant Ionomics Analysis"
-description: "Complete automated workflow for science-based ionomics analysis in agricultural research"
-slug: "ionomica"
+description: "Comprehensive automated workflow for science-based ionomics analysis in agricultural research"
 date: 2023-06-20
 draft: false
 demoURL: ""
@@ -17,30 +16,28 @@ tech:
 
 ## The Problem
 
-Plant ionomics—the quantitative analysis of elemental composition in plant tissues—generates complex multivariate datasets requiring sophisticated statistical treatment. Manual analysis is time-consuming, error-prone, and often lacks consistency across studies. Researchers need automated, reproducible workflows that apply appropriate statistical methods and generate publication-ready outputs.
+Plant ionomics—the quantitative analysis of elemental composition in plant tissues—generates complex multivariate datasets requiring sophisticated statistical treatment. Manual analysis is time-consuming, error-prone, and often lacks consistency across studies. Researchers need automated, reproducible workflows that apply appropriate statistical methods and generate publication-ready results.
 
 ## The Approach
 
-Ionomica is an automated computational workflow that processes raw ionomics data through a complete analytical pipeline:
+Ionomica is an automated computational workflow that processes raw ionomics data through a comprehensive analytical pipeline:
 
 - Data validation and quality control
-- Multivariate statistical analysis (PCA, clustering, ANOVA)
-- Elemental interaction networks
+- Statistical modeling (ANOVA, mixed models, multivariate analysis)
 - Automated visualization generation
-- Comprehensive statistical reporting
+- Publication-ready figure and table output
+- Reproducible research documentation
 
-The workflow implements domain-specific best practices in ionomics analysis while maintaining flexibility for different experimental designs. Users input their data and receive a complete analysis package ready for interpretation or publication.
+The system implements best practices from agronomic research and statistical analysis, ensuring methodological rigor while dramatically reducing analysis time.
 
-## Results
+## Technical Implementation
 
-Professional-grade statistical analyses and publication-ready visualizations delivered automatically. Ensures consistency and reproducibility across ionomics studies while dramatically reducing analysis time from days to minutes.
+- R-based statistical pipeline with tidyverse
+- Automated reporting with R Markdown
+- Integration with laboratory data management systems
+- Version-controlled analysis workflows
+- Customizable visualization themes
 
-## Tech Stack
+## Current Status
 
-R, Python, Tidyverse, ggplot2, statistical modeling packages
-
-## Images
-
-- Example output report/visualizations
-- Workflow diagram
-- Sample data transformation
+Production system actively used in agricultural research projects. Ongoing development focuses on expanding statistical methods and improving integration with additional data sources.
