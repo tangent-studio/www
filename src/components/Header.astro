@@ -1,6 +1,7 @@
 ---
 import Container from "@components/Container.astro";
 import Link from "@components/Link.astro";
+import LanguageSwitcher from "@components/LanguageSwitcher.astro";
 import { SITE } from "@consts";
 import { localizePath } from "astro-i18next";
 import { t } from "@lib/i18n";
@@ -12,31 +13,39 @@ const currentLang = currentPath.startsWith('/fr') ? 'fr' : 'en';
 
 <header>
   <Container>
-    <div class="flex flex-wrap gap-y-2 justify-between">
-      <Link href={localizePath("/")} underline={false}>
+    <div class="flex flex-wrap gap-y-2 items-center justify-between">
+      <Link href={localizePath("/")} underline={false} class="flex items-center">
         <img 
-          src="/logo.png" 
+          src="/logo-light.svg" 
           alt={SITE.NAME}
-          class="h-8 w-auto"
+          class="h-8 w-auto dark:hidden"
+        />
+        <img 
+          src="/logo-dark.svg" 
+          alt={SITE.NAME}
+          class="hidden h-8 w-auto dark:block"
         />
       </Link>
-      <nav class="flex gap-1">
-        <Link href={localizePath("/projects")}>
-          {t("nav.projects", currentLang)}
-        </Link>
-        <span>
-          {`/`}
-        </span>
-        <Link href={localizePath("/about")}>
-          {t("nav.about", currentLang)}
-        </Link>
-        <span>
-          {`/`}
-        </span>
-        <Link href={localizePath("/contact")}>
-          {t("nav.contact", currentLang)}
-        </Link>
-      </nav>
+      <div class="flex items-center gap-3">
+        <nav class="flex gap-1">
+          <Link href={localizePath("/projects")}>
+            {t("nav.projects", currentLang)}
+          </Link>
+          <span>
+            {`/`}
+          </span>
+          <Link href={localizePath("/about")}>
+            {t("nav.about", currentLang)}
+          </Link>
+          <span>
+            {`/`}
+          </span>
+          <Link href={localizePath("/contact")}>
+            {t("nav.contact", currentLang)}
+          </Link>
+        </nav>
+        <LanguageSwitcher />
+      </div>
     </div>
   </Container>
 </header>

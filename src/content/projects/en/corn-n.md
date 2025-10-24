@@ -5,7 +5,7 @@ date: 2024-01-15
 draft: false
 demoURL: ""
 repoURL: ""
-image: "/images/projects/corn-n/hero.svg"
+image: "/images/projects/corn-n/prototype-model-for potatoe.png"
 tech:
   - Python
   - TensorFlow
@@ -17,24 +17,22 @@ tech:
 
 ## The Problem
 
-Nitrogen fertilizer recommendations for corn typically rely on simplified regional guidelines that fail to account for the complex interactions between soil properties, weather patterns, and management practices. This can lead to under-fertilization (reduced yields) or over-fertilization (economic loss and environmental impact). Farmers and agronomists need site-specific, data-driven recommendations that integrate multiple factors affecting nitrogen use efficiency.
+Nitrogen fertilizer recommendations for corn typically rely on simplified regional guidelines that fail to account for the complex interactions between soil properties, weather patterns, and management practices. This can lead to under-fertilization (reduced yields, thus a need for agricultural expansion) or over-fertilization (economic loss and environmental impact). Farmers and agronomists need site-specific, data-driven recommendations that integrate multiple factors affecting nitrogen use efficiency.
 
 ## The Approach
 
-We developed a neural network architecture that models corn nitrogen dose-response curves by integrating:
+We are developing a neural network model that generates corn nitrogen dose-response curves by integrating:
 
 - Soil physical and chemical properties
 - Land management history and practices
-- Weather time series throughout the growing season
-- Historical yield data
+- Weather time series before seedling and throughout the growing season
 
-The model learns nonlinear relationships between these inputs and crop response, producing site-specific dose-response predictions. An interactive dashboard built with Dash allows users to explore scenarios, visualize predicted responses, and extract practical recommendations.
+The model learns nonlinear relationships between these inputs and crop response, producing site-specific dose-response predictions. An interactive dashboard will allow farmers and agronomists to explore scenarios, visualize predicted responses, and extract practical recommendations.
 
 ## Technical Implementation
 
 - Deep learning architecture for multivariate time series
-- Integration of spatial (soil, topography) and temporal (weather, phenology) data
-- Uncertainty quantification for prediction confidence
+- Integration of spatial (soil, preceeding culture, seedling density, hybrid information) and temporal (weather, time of seedling and harvest) data
 - Interactive visualization for scenario exploration
 
 ## Current Status

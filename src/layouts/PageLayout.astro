@@ -1,5 +1,4 @@
 ---
-import LanguageSwitcher from "@components/LanguageSwitcher.astro";
 import Head from "@components/Head.astro";
 import Header from "@components/Header.astro";
 import Footer from "@components/Footer.astro";
@@ -24,7 +23,6 @@ const currentLang = currentPath.startsWith('/fr') ? 'fr' : 'en';
   </head>
   <body>
     <Header />
-    <LanguageSwitcher />
     <main>
       <slot />
     </main>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="139.10625mm"
+   height="27.329744mm"
+   viewBox="0 0 139.10625 27.329744"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="logo-dark.svg"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.0689372"
+     inkscape:cx="227.79636"
+     inkscape:cy="5.613052"
+     inkscape:window-width="1920"
+     inkscape:window-height="1011"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       id="grid1"
+       units="mm"
+       originx="-21.286718"
+       originy="-86.136959"
+       spacingx="0.99999998"
+       spacingy="1"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="5"
+       enabled="true"
+       visible="false" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-21.286718,-86.136963)">
+    <rect
+       style="fill:none;fill-opacity:1;stroke:none;stroke-width:0.52385;stroke-linecap:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect3"
+       width="139.10625"
+       height="27.329744"
+       x="21.286718"
+       y="86.136963"
+       inkscape:export-filename="rect3.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       xml:space="preserve"
+       style="font-size:22.7839px;font-family:FreeMono;-inkscape-font-specification:FreeMono;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:14.3521;stroke-dasharray:none;stroke-opacity:1"
+       x="61.266941"
+       y="105.85754"
+       id="text2"><tspan
+         sodipodi:role="line"
+         id="tspan2"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Caladea;-inkscape-font-specification:Caladea;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:14.3521"
+         x="61.266941"
+         y="105.85754">tangent.to</tspan></text>
+    <g
+       id="g3"
+       transform="translate(10.396823,5.69296)"
+       style="stroke:#ffffff;stroke-opacity:1">
+      <path
+         style="fill:none;stroke:#ffffff;stroke-width:1.8;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+         d="m 15,99.999997 h 29.999999 v -15.000001 0"
+         id="path1" />
+      <path
+         style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:0.6;stroke-linecap:round;stroke-dasharray:0.6, 1.2;stroke-dashoffset:0;stroke-opacity:1"
+         d="M 15,99.999995 44.999999,84.999996"
+         id="path3" />
+    </g>
+  </g>
+</svg>

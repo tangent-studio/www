@@ -15,7 +15,7 @@
     "title": "Services",
     "service1": {
       "title": "Predictive Modeling & Workflows",
-      "description": "Advanced statistical models and machine learning pipelines for investigating patterns and predicting outcomes in living systems. From nitrogen response modeling to ionomics analysis, we develop computational workflows that transform complex ecological and agricultural data into actionable predictions.",
+      "description": "Advanced statistical models and machine learning pipelines for investigating patterns and predicting outcomes in living systems. From investigation with advanced biostatistics to predictions with machine learning, we develop computational workflows that transform complex ecological and agricultural data into science-based decision making processes.",
       "keywords": "Machine learning, dose-response modeling, time series analysis, neural networks"
     },
     "service2": {
