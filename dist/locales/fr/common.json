@@ -8,24 +8,24 @@
     "contact": "Contact"
   },
   "hero": {
-    "title": "Mathématiques du vivant",
+    "title": "Mathématiques Vivantes pour les Sciences de la Vie",
     "subtitle": "Consultation en science des données et IA fondée sur la science pour l'agriculture, l'écologie et la recherche environnementale"
   },
   "services": {
     "title": "Services",
     "service1": {
-      "title": "Modélisation prédictive",
-      "description": "Développement de modèles d'apprentissage automatique et de modèles physiques pour étudier et prédire les systèmes vivants.",
+      "title": "Biostatistiques et apprentissage-machine",
+      "description": "Modèles statistiques avancés et pipelines d'apprentissage automatique pour étudier les patterns et prédire les résultats dans les systèmes vivants. De l'investigation à l'aide de biostatistiques avancées à la prédiction par apprentissage-machine, nous développons des flux de travail computationnels qui transforment les données écologiques et agricoles complexes en processus décisionnels fondés sur la science.",
       "keywords": "Apprentissage automatique, modélisation dose-réponse, analyse de séries temporelles, réseaux neuronaux"
     },
     "service2": {
-      "title": "Applications Scientifiques Interactives",
-      "description": "Applications web personnalisées qui transforment des analyses complexes en outils accessibles pour chercheurs, agriculteurs et décideurs.",
+      "title": "Applications scientifiques interactives",
+      "description": "Applications web personnalisées qui transforment des analyses complexes en outils accessibles pour chercheurs, agriculteurs et décideurs. Nous construisons des tableaux de bord et interfaces interactives utilisant des frameworks modernes comme Marimo et Observable, rendant les modèles sophistiqués utilisables dans des contextes réels.",
       "keywords": "Applications web, tableaux de bord, visualisation de données, calcul scientifique"
     },
     "service3": {
-      "title": "Statistiques",
-      "description": "Transformez les tâches analytiques répétitives en flux de travail automatisés en statistiques avancées.",
+      "title": "Automatisation statistique",
+      "description": "Transformez les tâches analytiques répétitives en flux de travail automatisés. Entrez vos données et recevez des analyses statistiques complètes, des visualisations prêtes pour publication et des résultats de modèles. Nous nous spécialisons dans l'automatisation de modèles physiques et de procédures statistiques pour des rapports systématiques et le contrôle qualité dans des contextes de recherche et opérationnels.",
       "keywords": "Automatisation, recherche reproductible, calcul statistique, optimisation de flux de travail"
     }
   },
