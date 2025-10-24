@@ -104,7 +104,7 @@ console.log("FR - Filtered projects:", projects.length);
           <h2 class="text-2xl font-semibold text-black dark:text-white">
             {t("home.recentProjects", currentLang)}
           </h2>
-          <Link href={localizePath("/projects")}>
+          <Link href={localizePath("/projects", currentLang)}>
             {t("home.seeAllProjects", currentLang)}
           </Link>
         </div>
@@ -126,7 +126,7 @@ console.log("FR - Filtered projects:", projects.length);
           </p>
         </article>
         <div class="flex gap-4">
-          <Link href={localizePath("/contact")}>
+          <Link href={localizePath("/contact", currentLang)}>
             {t("nav.contact", currentLang)}
           </Link>
           <span>/</span>

@@ -14,7 +14,7 @@ const currentLang = currentPath.startsWith('/fr') ? 'fr' : 'en';
 <header>
   <Container>
     <div class="flex flex-wrap gap-y-2 items-center justify-between">
-      <Link href={localizePath("/")} underline={false} class="flex items-center">
+      <Link href={localizePath("/", currentLang)} underline={false} class="flex items-center">
         <img 
           src="/logo-light.svg" 
           alt={SITE.NAME}
@@ -28,19 +28,19 @@ const currentLang = currentPath.startsWith('/fr') ? 'fr' : 'en';
       </Link>
       <div class="flex items-center gap-3">
         <nav class="flex gap-1">
-          <Link href={localizePath("/projects")}>
+          <Link href={localizePath("/projects", currentLang)}>
             {t("nav.projects", currentLang)}
           </Link>
           <span>
             {`/`}
           </span>
-          <Link href={localizePath("/about")}>
+          <Link href={localizePath("/about", currentLang)}>
             {t("nav.about", currentLang)}
           </Link>
           <span>
             {`/`}
           </span>
-          <Link href={localizePath("/contact")}>
+          <Link href={localizePath("/contact", currentLang)}>
             {t("nav.contact", currentLang)}
           </Link>
         </nav>
