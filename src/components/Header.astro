@@ -3,18 +3,19 @@ import Container from "@components/Container.astro";
 import Link from "@components/Link.astro";
 import LanguageSwitcher from "@components/LanguageSwitcher.astro";
 import { SITE } from "@consts";
-import { localizePath } from "astro-i18next";
 import { t } from "@lib/i18n";
 
 // Detect language
 const currentPath = Astro.url.pathname;
 const currentLang = currentPath.startsWith('/fr') ? 'fr' : 'en';
+const langPrefix = currentLang === 'fr' ? '/fr' : '';
+const homeHref = langPrefix === '' ? '/' : langPrefix;
 ---
 
 <header>
   <Container>
     <div class="flex flex-wrap gap-y-2 items-center justify-between">
-      <Link href={localizePath("/", currentLang)} underline={false} class="flex items-center">
+      <Link href={homeHref} underline={false} class="flex items-center">
         <img 
           src="/logo-light.svg" 
           alt={SITE.NAME}
@@ -28,19 +29,19 @@ const currentLang = currentPath.startsWith('/fr') ? 'fr' : 'en';
       </Link>
       <div class="flex items-center gap-3">
         <nav class="flex gap-1">
-          <Link href={localizePath("/projects", currentLang)}>
+          <Link href={`${langPrefix}/projects`}>
             {t("nav.projects", currentLang)}
           </Link>
           <span>
             {`/`}
           </span>
-          <Link href={localizePath("/about", currentLang)}>
+          <Link href={`${langPrefix}/about`}>
             {t("nav.about", currentLang)}
           </Link>
           <span>
             {`/`}
           </span>
-          <Link href={localizePath("/contact", currentLang)}>
+          <Link href={`${langPrefix}/contact`}>
             {t("nav.contact", currentLang)}
           </Link>
         </nav>

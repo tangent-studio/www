@@ -2,7 +2,7 @@ import type { Site, Metadata, Socials } from "@types";
 
 export const SITE: Site = {
   NAME: "Tangent",
-  EMAIL: "contact@tangent.to",
+  EMAIL: "essiparent@icloud.com",
   NUM_POSTS_ON_HOMEPAGE: 3,
   NUM_WORKS_ON_HOMEPAGE: 2,
   NUM_PROJECTS_ON_HOMEPAGE: 3,
@@ -10,35 +10,31 @@ export const SITE: Site = {
 
 export const HOME: Metadata = {
   TITLE: "Home",
-  DESCRIPTION: "Astro Nano is a minimal and lightweight blog and portfolio.",
+  DESCRIPTION: "tangent.to - consultants in data science.",
 };
 
 export const BLOG: Metadata = {
   TITLE: "Blog",
-  DESCRIPTION: "A collection of articles on topics I am passionate about.",
+  DESCRIPTION: "Updates and insights on our data science projects and methods.",
 };
 
 export const WORK: Metadata = {
   TITLE: "Work",
-  DESCRIPTION: "Where I have worked and what I have done.",
+  DESCRIPTION: "Selected client engagements and long-running collaborations.",
 };
 
 export const PROJECTS: Metadata = {
   TITLE: "Projects",
-  DESCRIPTION: "A collection of my projects, with links to repositories and demos.",
+  DESCRIPTION: "A collection of ours projects, with links to repositories and demos.",
 };
 
 export const SOCIALS: Socials = [
   { 
-    NAME: "twitter-x",
-    HREF: "https://twitter.com/markhorn_dev",
-  },
-  { 
     NAME: "github",
-    HREF: "https://github.com/markhorn-dev"
+    HREF: "https://github.com/tangent-studio"
   },
   { 
     NAME: "linkedin",
-    HREF: "https://www.linkedin.com/in/markhorn-dev",
+    HREF: "https://www.linkedin.com/in/essi-parent-b1b61a24b/",
   }
 ];
