@@ -1,4 +1,3 @@
-
 ---
 title: "JMON labs"
 description: "Musique algorithmique en JavaScript"
