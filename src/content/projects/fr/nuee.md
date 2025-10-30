@@ -12,6 +12,9 @@ tech:
   - Ecology
 ---
 
+## Site de documentation
+→ [essicolo.github.io/nuee](essicolo.github.io/nuee)
+
 ## Le Problème
 
 L'analyse des communautés écologiques nécessite des méthodes statistiques multivariées spécialisées — ordinations, indices de diversité, tests de permutation — qui sont bien établies dans l'écosystème R (notamment avec le package *vegan*). Cependant, les chercheurs travaillant en Python manquent d'outils équivalents robustes et complets. Les implémentations existantes sont fragmentées, incomplètes ou difficiles à utiliser, forçant les écologistes à jongler entre R et Python ou à réimplémenter des méthodes complexes. Il existe un besoin pour une bibliothèque Python complète, fidèle aux standards de l'écologie numérique, et compatible avec l'écosystème scientifique Python moderne.

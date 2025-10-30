@@ -12,6 +12,9 @@ tech:
   - Ecology
 ---
 
+## Documentation site
+→ [essicolo.github.io/nuee](essicolo.github.io/nuee)
+
 ## The Problem
 Community ecology analysis requires specialized multivariate statistical methods — ordinations, diversity indices, permutation tests — that are well-established in the R ecosystem (particularly with the *vegan* package). However, researchers working in Python lack equivalent robust and comprehensive tools. Existing implementations are fragmented, incomplete, or difficult to use, forcing ecologists to switch between R and Python or re-implement complex methods. There is a need for a complete Python library that is faithful to numerical ecology standards and compatible with the modern Python scientific ecosystem.
 
